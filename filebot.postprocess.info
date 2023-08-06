@@ -1,0 +1,2 @@
+// qBitTorrent Post-Download Script
+filebot @O:\Filebot\filebot.conf --def "ut_label=%L" "ut_title=%N" "ut_dir=%F"

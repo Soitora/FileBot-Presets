@@ -1,0 +1,1 @@
+O:\Torrents\.rss\Failed\{file.structurePathTail}
