@@ -18,8 +18,7 @@
 {" - "}
 {sxe.pad(2)}
 {
-    t ==~ /(Volume|Episode).[0-9]+/ ? null :
-    " - " + t.replaceAll(":", "꞉").validateFileName().take(50).replaceAll(/(\s\w+)?$/, "").replaceAll(/\W*$/, "").replaceAll(/꞉$/, "")
+	t ==~ /(Volume|Episode).[0-9]+/ ? null : " - " + t.replaceAll(":","꞉").validateFileName().truncate(50, /\s/)
 }
 { if (t.length() > 50) "..." }
 {
